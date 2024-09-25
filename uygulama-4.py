@@ -10,11 +10,11 @@
 # 4
 # 5
 # 8
-Sayi = 9114
-b4 = int(Sayi / 1000)
-b3 = int(Sayi / 100 - b4 * 10)
-b2 = int(Sayi / 10 - b4 * 100 - b3 * 10)
-b1 = int(Sayi / 1 - b4 * 1000 - b3 * 100 - b2 * 10)
+sayi = 9114
+b4 = int(sayi / 1000)
+b3 = int(sayi / 100 - b4 * 10)
+b2 = int(sayi / 10 - b4 * 100 - b3 * 10)
+b1 = int(sayi / 1 - b4 * 1000 - b3 * 100 - b2 * 10)
 print(b4)
 print(b3)
 print(b2)
