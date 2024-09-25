@@ -10,3 +10,12 @@
 # 4
 # 5
 # 8
+x = 1453
+a = int(x / 1000)
+b = int(x / 100 - a * 10)
+c = int(x / 10 - a * 100 - b * 10)
+d = int(x / 1 - a * 1000 - b * 100 - c * 10)
+print(a)
+print(b)
+print(c)
+print(d)
