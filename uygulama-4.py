@@ -10,12 +10,12 @@
 # 4
 # 5
 # 8
-x = 1453
-a = int(x / 1000)
-b = int(x / 100 - a * 10)
-c = int(x / 10 - a * 100 - b * 10)
-d = int(x / 1 - a * 1000 - b * 100 - c * 10)
-print(a)
-print(b)
-print(c)
-print(d)
+Sayi = 9114
+b4 = int(Sayi / 1000)
+b3 = int(Sayi / 100 - b4 * 10)
+b2 = int(Sayi / 10 - b4 * 100 - b3 * 10)
+b1 = int(Sayi / 1 - b4 * 1000 - b3 * 100 - b2 * 10)
+print(b4)
+print(b3)
+print(b2)
+print(b1)
