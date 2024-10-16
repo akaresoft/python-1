@@ -18,4 +18,12 @@ print()
 for i in range(len(meyveler)):
   print(i+1,meyveler[i])
 
+print()
+print()
 
+#  sırayla meyveler tuple ının elemanlarını sıra numarasıyla ekrana yaz (while ile)
+meyveler = ("apple", "banana", "cherry")
+i = 0
+while i < len(meyveler):
+  print(meyveler[i])
+  i = i + 1
